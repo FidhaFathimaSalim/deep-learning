@@ -6,6 +6,7 @@ import PoseModule as pm
 cap = cv2.VideoCapture(0)
 
 detector = pm.poseDetector()
+
 count = 0
 dir = 0
 pTime = 0
